@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem
+            id="ridwan_academy_menu_root"
+            name="Academy"
+            sequence="20"/>
+        <!-- This Menu Item Must have a parent -->
+        <menuitem id="ridwan_academy_master_categ" 
+            name="Data Master" 
+            parent="ridwan_academy_menu_root" 
+            sequence="20"/>
+    </data>
+</odoo>

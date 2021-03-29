@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ridwan_academy_course,access_ridwan_academy_course,model_ridwan_course,,1,1,1,1
+access_ridwan_academy_course_category,access_ridwan_academy_course_category,model_ridwan_course_category,,1,1,1,1
+access_ridwan_academy_session,access_ridwan_academy_session,model_ridwan_session,,1,1,1,1
+access_ridwan_academy_attendee,access_ridwan_academy_attendee,model_ridwan_attendee,,1,1,1,1
