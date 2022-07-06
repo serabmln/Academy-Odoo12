@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_train_hospital_hospital_patient,access.train.hospital.hospital.patient,model_hospital_patient,base.group_user,1,1,1,1
+access_train_hospital_hospital_appointments,access.train.hospital.hospital.appointments,model_hospital_appointments,base.group_user,1,1,1,1
+access_train_create_appointment_wizard,access.train.create.appointment.wizard,model_create_appointment_wizard,base.group_user,1,1,1,1
+access_train_search_appointment_wizard,access.train.search.appointment.wizard,model_search_appointment_wizard,base.group_user,1,1,1,1
+access_train_hospital_hospital_doctor,access.train.hospital.hospital.doctor,model_hospital_doctor,base.group_user,1,1,1,1
+access_train_hospital_hospital_appointment_line,access.train.hospital.hospital.appointment.line,model_hospital_appointment_line,base.group_user,1,1,1,1

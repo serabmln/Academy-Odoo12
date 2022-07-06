@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="hospital_menu_root"
+        name="Hospital"
+        sequence="99"
+    />
+
+    <menuitem
+        id="hospital_patient_root"
+        name="Patients"
+        parent="hospital_menu_root"
+    />
+    
+    <menuitem
+        id="hospital_patient"
+        name="Patients"
+        parent="hospital_patient_root"
+        action="train_hospital.patients_action"
+        sequence="10"
+    />
+
+    <menuitem
+        id="hospital_kids"
+        name="Kids"
+        parent="hospital_patient_root"
+        action="train_hospital.kids_action"
+        sequence="20"
+    />
+
+    <menuitem
+        id="patient_female"
+        name="Female Patient"
+        parent="hospital_patient_root"
+        action="train_hospital.patient_female_action"
+        sequence="30"
+    />
+
+   <menuitem
+    id="patient_male"
+    name="Male Patient"
+    parent="hospital_patient_root"
+    action="train_hospital.patient_male_action"
+    sequence="40"
+   />
+
+   <menuitem
+        id="hospital_appointments_root"
+        name="Appointments"
+        parent="hospital_menu_root"
+    />
+
+    <menuitem
+        id="hospital_appointments"
+        name="Appointments"
+        parent="hospital_appointments_root"
+        action="train_hospital.appointments_action"
+        sequence="10"
+    />
+
+    <menuitem
+        id="hospital_create_appointments"
+        name="Create Appointments"
+        parent="hospital_appointments_root"
+        action="train_hospital.create_appointment_wizard_action"
+        sequence="20"
+    />
+
+    <menuitem
+        id="hospital_create_appointments"
+        name="Search Appointments"
+        parent="hospital_appointments_root"
+        action="train_hospital.search_appointment_wizard_action"
+        sequence="20"
+    />
+
+    <menuitem
+        id="doctor_patient_root"
+        name="Doctor"
+        parent="hospital_menu_root"
+    />
+
+    <menuitem
+        id="hospital_doctor"
+        name="Doctor"
+        parent="doctor_patient_root"
+        action="train_hospital.doctor_action"
+        sequence="10"
+    />
+
+
+</odoo>

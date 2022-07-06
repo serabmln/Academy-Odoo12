@@ -1,0 +1,27 @@
+{
+    'name': 'Hospital Management',
+    'version': '13.0.1',
+    'category': 'Productivity',
+    'depends': ['sale','mail'],
+    'author': 'Training',
+    'website': 'https://www.odoo.com/',
+    'summary': 'Hospital Management Training',
+    'data': [
+        'security/ir.model.access.csv',
+        'data/data.xml',
+        'views/menu_item_view.xml',
+        'views/patient_view.xml',
+        'views/doctor_view.xml',
+        'wizard/create_appointment_wizard_view.xml',
+        'wizard/search_appointment_wizard_view.xml',
+        'views/appointments_view.xml',
+        'views/sale_view.xml',
+        'views/kids_view.xml',
+        'views/gender_view.xml'
+        ],
+    'qweb': [],
+    'image': [],
+    'auto_install': False,
+    'installable': True,
+    'application': True,
+}
